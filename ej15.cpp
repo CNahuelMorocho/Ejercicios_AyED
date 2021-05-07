@@ -24,7 +24,7 @@ int main(){
             cout<<"Tipo de infraccion invalida.\nIngrese nuevamente el tipo de infraccion: ";cin>>tipo_infraccion;
         }
 
-        cout<<"Ingresar motiva de infracción: ";cin>>motivo_inf[];
+        cout<<"Ingresar motiva de infracción: ";cin>>motivo_inf[0];
         cout<<"Valor de la multa: ";cin>>multa_ind;
 
         cout<<"Gravedad de Infraccion Leve (L), Media (M), Grave (G): ";cin>>gravedad;
