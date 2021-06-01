@@ -7,6 +7,18 @@ número.
 
 using namespace std;
 
+int factorial( int );
+
+int main(){
+    int n;
+    
+    cin>>n;
+    cout<<n<<"! = "<<factorial(n);
+
+    return 0;
+}
+
+
 int factorial( int x ) {
     int rs = 1;
     if ( x <= 0) {
@@ -23,13 +35,4 @@ int factorial( int x ) {
         return rs;
     }
 
-}
-
-int main(){
-    int n;
-    
-    cin>>n;
-    cout<<n<<"! = "<<factorial(n);
-
-    return 0;
 }
